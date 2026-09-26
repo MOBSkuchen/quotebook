@@ -6,8 +6,9 @@ A minimalist, Wikipedia-styled site for browsing quotes. A SonVogel subsidiary.
   content that gets synced into the search database.
 - `src/frontend/` — plain HTML/CSS/JS pages served by the backend.
 - `src/backend/` — a FastAPI app that serves the frontend, exposes a small
-  JSON API, and periodically syncs `data/` into a local SQLite database for
-  fast search.
+  JSON API, and periodically reindexes `data/` into a local SQLite database
+  for fast search. `run.py` is a standalone launcher for production that
+  pulls the latest commit from GitHub and restarts the app when it changes.
 - `docs/` — architecture, data schema, and deployment notes.
 
 ## Quick start (local development)
@@ -22,8 +23,9 @@ uvicorn app.main:app --reload
 
 Then open http://127.0.0.1:8000/.
 
-By default the backend reads quotes straight from the local `data/` folder
-(`QUOTEBOOK_SYNC_SOURCE=local`). See `docs/deployment.md` for how to point it
-at a GitHub repo instead.
+The app always reads quotes straight from the local `data/` folder - it has
+no git dependency itself. See `docs/deployment.md` for `run.py`, the
+standalone launcher that pulls new commits from GitHub and restarts the app
+in production.
 
 See `docs/data-schema.md` for how to add a new quote.

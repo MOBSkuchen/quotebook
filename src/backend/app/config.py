@@ -14,13 +14,7 @@ VAR_DIR = Path(__file__).resolve().parents[1] / "var"
 VAR_DIR.mkdir(exist_ok=True)
 DB_PATH = VAR_DIR / "quotebook.db"
 
-# "local" reads data/ directly off disk (used before a GitHub remote
-# exists). "github" fetches from QUOTEBOOK_GITHUB_OWNER/QUOTEBOOK_GITHUB_REPO.
-SYNC_SOURCE = os.environ.get("QUOTEBOOK_SYNC_SOURCE", "local")
-
-GITHUB_OWNER = os.environ.get("QUOTEBOOK_GITHUB_OWNER", "")
-GITHUB_REPO = os.environ.get("QUOTEBOOK_GITHUB_REPO", "")
-GITHUB_BRANCH = os.environ.get("QUOTEBOOK_GITHUB_BRANCH", "main")
-GITHUB_TOKEN = os.environ.get("QUOTEBOOK_GITHUB_TOKEN") or None
-
+# Reindexes data/ off local disk into SQLite on this interval. Getting new
+# commits (and therefore new data) onto disk in the first place is run.py's
+# job, not this app's - see src/backend/run.py.
 SYNC_INTERVAL_SECONDS = int(os.environ.get("QUOTEBOOK_SYNC_INTERVAL", "300"))

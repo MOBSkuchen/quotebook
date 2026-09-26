@@ -38,7 +38,8 @@ Field notes:
 
 - `id` — a UUID, unique per quote. Matches the second half of the filename.
 - `added` — `YYYY-MM-DD`, must match the filename's date prefix. Used for
-  "Today's Quotes" and for sorting the "View all" list (newest first).
+  sorting the "View all" list (newest first). Not used to pick "Today's
+  Quotes" - see "Quote of the day" in `docs/architecture.md`.
 - `date` — a free-form display string used in the "- Author, date" line.
   Doesn't need to be a real date (`"47 BC"`, `"c. 1500"`, etc. are fine).
 - `original_language` — an ISO 639 code for the language the quote was
@@ -53,9 +54,10 @@ Field notes:
 - `author.name` — required.
 - `author.link` — optional. Must start with `http://` or `https://` or the
   file is rejected by the sync process.
-- `media` — optional entirely. If present, `image` is a filename that must
-  exist in `data/media/`, and `caption` is optional (falls back to
-  "`<author>, <date>`" in the UI if omitted).
+- `media` — optional entirely. If present, `caption` is optional (falls
+  back to "`<author>, <date>`" in the UI if omitted), and `image` is either:
+  - an absolute URL (starts with `http://` or `https://`), used as-is, or
+  - otherwise, a filename that must exist in `data/media/`.
 
 Files that fail validation (missing fields, mismatched date prefix, bad
 author link, etc.) are skipped and logged during sync — they don't break
