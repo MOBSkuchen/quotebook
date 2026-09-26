@@ -118,11 +118,6 @@ a:visited {
   font-weight: 700;
 }
 
-.section-note {
-  color: var(--muted-text);
-  font-size: 0.9rem;
-}
-
 /* Search */
 
 .search-bar {

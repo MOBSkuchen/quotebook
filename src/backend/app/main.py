@@ -43,8 +43,8 @@ api = APIRouter()
 
 @api.get("/quotes/today")
 def get_todays_quotes():
-    used_date, is_fallback, quotes = db.query_today()
-    return {"date": used_date, "is_fallback": is_fallback, "quotes": quotes}
+    quote = db.get_daily_quote()
+    return {"quotes": [quote] if quote else []}
 
 
 @api.get("/quotes")

@@ -27,9 +27,9 @@ CREATE VIRTUAL TABLE IF NOT EXISTS quotes_fts USING fts5(
     tokenize = 'unicode61 remove_diacritics 2'
 );
 
-CREATE TABLE IF NOT EXISTS sync_state (
-    key TEXT PRIMARY KEY,
-    value TEXT
+CREATE TABLE IF NOT EXISTS daily_quote (
+    date TEXT PRIMARY KEY,
+    quote_id TEXT NOT NULL
 );
 """
 
@@ -49,39 +49,12 @@ def init_db() -> None:
         conn.close()
 
 
-def get_sync_state(key: str) -> Optional[str]:
-    conn = get_conn()
-    try:
-        row = conn.execute(
-            "SELECT value FROM sync_state WHERE key = ?", (key,)
-        ).fetchone()
-        return row["value"] if row else None
-    finally:
-        conn.close()
-
-
-def set_sync_state(key: str, value: str) -> None:
-    conn = get_conn()
-    try:
-        with conn:
-            conn.execute(
-                """
-                INSERT INTO sync_state (key, value) VALUES (?, ?)
-                ON CONFLICT(key) DO UPDATE SET value = excluded.value
-                """,
-                (key, value),
-            )
-    finally:
-        conn.close()
-
-
 def rebuild(quotes) -> None:
     """Replace the entire quotes table + FTS index in one transaction.
 
     `quotes` is an iterable of (models.QuoteFile, media_url) pairs, where
-    media_url is already fully resolved (a local /media/... path or an
-    absolute raw.githubusercontent.com URL), or None if the quote has no
-    media.
+    media_url is already fully resolved (a local /media/... path), or None
+    if the quote has no media.
     """
     conn = get_conn()
     try:
@@ -138,24 +111,44 @@ def _row_to_dict(row: sqlite3.Row) -> dict:
     }
 
 
-def query_today() -> tuple[str, bool, list[dict]]:
+def get_daily_quote() -> Optional[dict]:
+    """Returns today's curated quote, picking and persisting a new random
+    one the first time it's asked for on a given day.
+
+    Once picked, the same quote is returned all day (from `daily_quote`),
+    regardless of how many times this is called or how many times the app
+    restarts in between - the pick lives in the same SQLite file as the
+    quote index, untouched by reindexing or by run.py's git resets.
+    """
     conn = get_conn()
     try:
         today = date.today().isoformat()
-        rows = conn.execute(
-            "SELECT * FROM quotes WHERE added = ? ORDER BY id", (today,)
-        ).fetchall()
-        used_date = today
-        is_fallback = False
-        if not rows:
-            latest = conn.execute("SELECT MAX(added) AS m FROM quotes").fetchone()
-            if latest and latest["m"]:
-                used_date = latest["m"]
-                is_fallback = True
-                rows = conn.execute(
-                    "SELECT * FROM quotes WHERE added = ? ORDER BY id", (used_date,)
-                ).fetchall()
-        return used_date, is_fallback, [_row_to_dict(r) for r in rows]
+
+        picked = conn.execute(
+            "SELECT quote_id FROM daily_quote WHERE date = ?", (today,)
+        ).fetchone()
+        if picked is not None:
+            row = conn.execute(
+                "SELECT * FROM quotes WHERE id = ?", (picked["quote_id"],)
+            ).fetchone()
+            if row is not None:
+                return _row_to_dict(row)
+            # The picked quote no longer exists (e.g. removed from data/);
+            # fall through and pick a fresh one for today instead.
+
+        row = conn.execute("SELECT * FROM quotes ORDER BY RANDOM() LIMIT 1").fetchone()
+        if row is None:
+            return None
+
+        with conn:
+            conn.execute(
+                """
+                INSERT INTO daily_quote (date, quote_id) VALUES (?, ?)
+                ON CONFLICT(date) DO UPDATE SET quote_id = excluded.quote_id
+                """,
+                (today, row["id"]),
+            )
+        return _row_to_dict(row)
     finally:
         conn.close()
 
