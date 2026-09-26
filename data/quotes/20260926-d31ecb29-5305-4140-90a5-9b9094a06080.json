@@ -1,0 +1,17 @@
+{
+  "id": "d31ecb29-5305-4140-90a5-9b9094a06080",
+  "added": "2026-09-26",
+  "date": "1969",
+  "original_language": "en",
+  "translations": {
+    "en": "Houston, Tranquility Base here. The Eagle has landed."
+  },
+  "author": {
+    "name": "Neil Armstrong",
+    "link": "https://en.wikipedia.org/wiki/Neil_Armstrong"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/800px-Neil_Armstrong_pose.jpg",
+    "caption": "Neil Armstrong"
+  }
+}

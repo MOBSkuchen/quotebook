@@ -1,0 +1,18 @@
+{
+  "id": "f35ba301-5583-4775-b2b8-a379ef59eb12",
+  "added": "2026-09-26",
+  "date": "1633",
+  "original_language": "it",
+  "translations": {
+    "it": "Eppur si muove.",
+    "en": "And yet it moves."
+  },
+  "author": {
+    "name": "Galileo Galilei",
+    "link": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Galileo_by_leoni.jpg/800px-Galileo_by_leoni.jpg",
+    "caption": "Galileo Galilei by Ottavio Leoni"
+  }
+}

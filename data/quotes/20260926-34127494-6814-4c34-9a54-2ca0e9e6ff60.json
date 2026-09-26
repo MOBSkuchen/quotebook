@@ -1,0 +1,18 @@
+{
+  "id": "34127494-6814-4c34-9a54-2ca0e9e6ff60",
+  "added": "2026-09-26",
+  "date": "23 BC",
+  "original_language": "la",
+  "translations": {
+    "la": "Carpe diem, quam minimum credula postero.",
+    "en": "Seize the day, put very little trust in tomorrow."
+  },
+  "author": {
+    "name": "Horace",
+    "link": "https://en.wikipedia.org/wiki/Horace"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Quintus_Horatius_Flaccus.jpg/800px-Quintus_Horatius_Flaccus.jpg",
+    "caption": "Portrait engraving of Horace"
+  }
+}

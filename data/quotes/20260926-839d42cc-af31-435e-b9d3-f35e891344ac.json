@@ -1,0 +1,18 @@
+{
+  "id": "839d42cc-af31-435e-b9d3-f35e891344ac",
+  "added": "2026-09-26",
+  "date": "1871",
+  "original_language": "fr",
+  "translations": {
+    "fr": "Je est un autre.",
+    "en": "I is another."
+  },
+  "author": {
+    "name": "Arthur Rimbaud",
+    "link": "https://en.wikipedia.org/wiki/Arthur_Rimbaud"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud_by_Carjat_1872_n2.jpg/800px-Rimbaud_by_Carjat_1872_n2.jpg",
+    "caption": "Arthur Rimbaud by Étienne Carjat, 1872"
+  }
+}

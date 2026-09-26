@@ -1,0 +1,18 @@
+{
+  "id": "0898f21b-89b6-4c0c-9ffa-42d5d1008017",
+  "added": "2026-09-26",
+  "date": "1759",
+  "original_language": "fr",
+  "translations": {
+    "fr": "Il faut cultiver notre jardin.",
+    "en": "We must cultivate our garden."
+  },
+  "author": {
+    "name": "Voltaire",
+    "link": "https://en.wikipedia.org/wiki/Voltaire"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/800px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg",
+    "caption": "Voltaire by Nicolas de Largillière"
+  }
+}

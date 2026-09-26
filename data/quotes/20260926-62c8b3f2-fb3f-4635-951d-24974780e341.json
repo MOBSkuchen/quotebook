@@ -1,0 +1,18 @@
+{
+  "id": "62c8b3f2-fb3f-4635-951d-24974780e341",
+  "added": "2026-09-26",
+  "date": "c. 350 BC",
+  "original_language": "el",
+  "translations": {
+    "el": "Ἄνθρωπος φύσει πολιτικὸν ζῷον.",
+    "en": "Man is by nature a political animal."
+  },
+  "author": {
+    "name": "Aristotle",
+    "link": "https://en.wikipedia.org/wiki/Aristotle"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/800px-Aristotle_Altemps_Inv8575.jpg",
+    "caption": "Aristotle bust"
+  }
+}

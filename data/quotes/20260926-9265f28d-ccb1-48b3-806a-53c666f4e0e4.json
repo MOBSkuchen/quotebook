@@ -1,0 +1,18 @@
+{
+  "id": "9265f28d-ccb1-48b3-806a-53c666f4e0e4",
+  "added": "2026-09-26",
+  "date": "1963",
+  "original_language": "de",
+  "translations": {
+    "de": "Ich bin ein Berliner.",
+    "en": "I am a Berliner."
+  },
+  "author": {
+    "name": "John F. Kennedy",
+    "link": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/800px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+    "caption": "John F. Kennedy"
+  }
+}

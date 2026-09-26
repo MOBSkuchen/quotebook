@@ -1,0 +1,18 @@
+{
+  "id": "d98b95f8-2f85-49ca-bc43-f115a7f7f288",
+  "added": "2026-09-26",
+  "date": "c. 500 BC",
+  "original_language": "el",
+  "translations": {
+    "el": "Ἓν οἶδα ὅτι οὐδὲν οἶδα.",
+    "en": "I know that I know nothing."
+  },
+  "author": {
+    "name": "Socrates",
+    "link": "https://en.wikipedia.org/wiki/Socrates"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Socrate_du_Louvre.jpg/800px-Socrate_du_Louvre.jpg",
+    "caption": "Socrates"
+  }
+}

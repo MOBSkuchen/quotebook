@@ -1,0 +1,19 @@
+{
+  "id": "2bd9b752-4b50-41a6-a0c2-a7c55b74521d",
+  "added": "2026-09-26",
+  "date": "1784",
+  "original_language": "de",
+  "translations": {
+    "de": "Sapere aude! Habe Mut, dich deines eigenen Verstandes zu bedienen!",
+    "la": "Sapere aude!",
+    "en": "Dare to know! Have the courage to use your own understanding!"
+  },
+  "author": {
+    "name": "Immanuel Kant",
+    "link": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Immanuel_Kant_%28painted_portrait%29.jpg/800px-Immanuel_Kant_%28painted_portrait%29.jpg",
+    "caption": "Immanuel Kant portrait"
+  }
+}

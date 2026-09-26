@@ -1,0 +1,19 @@
+{
+  "id": "58fade65-d4a6-498c-8c61-461d1fe2d63c",
+  "added": "2026-09-26",
+  "date": "1637",
+  "original_language": "fr",
+  "translations": {
+    "fr": "Je pense, donc je suis.",
+    "la": "Cogito, ergo sum.",
+    "en": "I think, therefore I am."
+  },
+  "author": {
+    "name": "René Descartes",
+    "link": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/800px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+    "caption": "René Descartes by Frans Hals"
+  }
+}

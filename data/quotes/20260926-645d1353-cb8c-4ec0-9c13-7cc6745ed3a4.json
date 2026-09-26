@@ -1,0 +1,18 @@
+{
+  "id": "645d1353-cb8c-4ec0-9c13-7cc6745ed3a4",
+  "added": "2026-09-26",
+  "date": "1857",
+  "original_language": "fr",
+  "translations": {
+    "fr": "Madame Bovary, c'est moi.",
+    "en": "Madame Bovary is me."
+  },
+  "author": {
+    "name": "Gustave Flaubert",
+    "link": "https://en.wikipedia.org/wiki/Gustave_Flaubert"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Gustave_Flaubert.jpg/800px-Gustave_Flaubert.jpg",
+    "caption": "Gustave Flaubert by Carjat"
+  }
+}

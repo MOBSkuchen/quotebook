@@ -1,0 +1,17 @@
+{
+  "id": "7fcd25fb-19a6-44a8-b67b-d8824657ab2a",
+  "added": "2026-09-26",
+  "date": "1990",
+  "original_language": "en",
+  "translations": {
+    "en": "Look again at that dot. That's here. That's home. That's us."
+  },
+  "author": {
+    "name": "Carl Sagan",
+    "link": "https://en.wikipedia.org/wiki/Carl_Sagan"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pale_Blue_Dot_%281990%29.png/800px-Pale_Blue_Dot_%281990%29.png",
+    "caption": "Pale Blue Dot photograph taken by Voyager 1"
+  }
+}

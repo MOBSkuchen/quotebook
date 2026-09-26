@@ -1,0 +1,18 @@
+{
+  "id": "4505975d-5260-417d-b069-9bd72d2f7d51",
+  "added": "2026-09-26",
+  "date": "44 BC",
+  "original_language": "la",
+  "translations": {
+    "la": "Et tu, Brute?",
+    "en": "You too, Brutus?"
+  },
+  "author": {
+    "name": "Julius Caesar",
+    "link": "https://en.wikipedia.org/wiki/Julius_Caesar"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/800px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+    "caption": "Julius Caesar"
+  }
+}

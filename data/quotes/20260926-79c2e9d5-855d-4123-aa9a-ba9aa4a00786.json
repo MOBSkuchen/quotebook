@@ -1,0 +1,18 @@
+{
+  "id": "79c2e9d5-855d-4123-aa9a-ba9aa4a00786",
+  "added": "2026-09-26",
+  "date": "1818",
+  "original_language": "de",
+  "translations": {
+    "de": "Die Welt ist meine Vorstellung.",
+    "en": "The world is my representation."
+  },
+  "author": {
+    "name": "Arthur Schopenhauer",
+    "link": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/800px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+    "caption": "Arthur Schopenhauer, 1859"
+  }
+}

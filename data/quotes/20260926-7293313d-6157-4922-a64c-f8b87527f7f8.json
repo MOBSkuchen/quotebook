@@ -1,6 +1,6 @@
 {
-  "id": "7fb0fc9c-1aa0-4b23-a079-a35c49600c84",
-  "added": "2026-05-01",
+  "id": "7293313d-6157-4922-a64c-f8b87527f7f8",
+  "added": "2026-09-26",
   "date": "47 BC",
   "original_language": "la",
   "translations": {
@@ -12,7 +12,7 @@
     "link": "https://en.wikipedia.org/wiki/Julius_Caesar"
   },
   "media": {
-    "image": "julius_caesar.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/800px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
     "caption": "Julius Caesar, 1st century BC"
   }
 }

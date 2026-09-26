@@ -1,0 +1,18 @@
+{
+  "id": "2af01d1f-77b2-427f-ae8d-b744c5d05465",
+  "added": "2026-09-26",
+  "date": "1804",
+  "original_language": "fr",
+  "translations": {
+    "fr": "Impossible n'est pas français.",
+    "en": "Impossible is not French."
+  },
+  "author": {
+    "name": "Napoleon Bonaparte",
+    "link": "https://en.wikipedia.org/wiki/Napoleon"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+    "caption": "Napoleon Bonaparte by Jacques-Louis David"
+  }
+}

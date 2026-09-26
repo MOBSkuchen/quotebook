@@ -1,0 +1,18 @@
+{
+  "id": "b83768cd-2b2d-49fe-8218-f5c3ca2189b2",
+  "added": "2026-09-26",
+  "date": "c. 500 BC",
+  "original_language": "zh",
+  "translations": {
+    "zh": "千里之行，始於足下。",
+    "en": "A journey of a thousand miles begins with a single step."
+  },
+  "author": {
+    "name": "Laozi",
+    "link": "https://en.wikipedia.org/wiki/Laozi"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Laozi_riding_an_ox.jpg/800px-Laozi_riding_an_ox.jpg",
+    "caption": "Laozi riding an ox"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "446faad1-146f-49f9-bd5a-a68e3974c711",
+  "added": "2026-09-26",
+  "date": "1905",
+  "original_language": "de",
+  "translations": {
+    "de": "E = mc²",
+    "en": "Energy equals mass times the speed of light squared."
+  },
+  "author": {
+    "name": "Albert Einstein",
+    "link": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/800px-Albert_Einstein_Head.jpg",
+    "caption": "Albert Einstein"
+  }
+}

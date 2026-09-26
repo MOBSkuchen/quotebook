@@ -1,0 +1,18 @@
+{
+  "id": "8ba47638-7dce-49b8-a849-9c7071ee2b30",
+  "added": "2026-09-26",
+  "date": "19 BC",
+  "original_language": "la",
+  "translations": {
+    "la": "Amor vincit omnia et nos cedamus amori.",
+    "en": "Love conquers all things; let us too yield to love."
+  },
+  "author": {
+    "name": "Virgil",
+    "link": "https://en.wikipedia.org/wiki/Virgil"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Vergilius_Roman_Mosaic_Bardo_Museum.jpg/800px-Vergilius_Roman_Mosaic_Bardo_Museum.jpg",
+    "caption": "Virgil mosaic in the Bardo Museum"
+  }
+}

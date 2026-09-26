@@ -1,0 +1,18 @@
+{
+  "id": "576b62f6-0a9e-471f-b9b4-baccfd1881d0",
+  "added": "2026-09-26",
+  "date": "1620",
+  "original_language": "la",
+  "translations": {
+    "la": "Scientia potentia est.",
+    "en": "Knowledge is power."
+  },
+  "author": {
+    "name": "Francis Bacon",
+    "link": "https://en.wikipedia.org/wiki/Francis_Bacon"
+  },
+  "media": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Francis_Bacon%2C_Viscount_St_Alban_from_NPG_%282%29.jpg/800px-Francis_Bacon%2C_Viscount_St_Alban_from_NPG_%282%29.jpg",
+    "caption": "Francis Bacon portrait"
+  }
+}
