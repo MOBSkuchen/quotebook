@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Placeholder portrait">
+  <rect width="300" height="400" fill="#eaecf0"/>
+  <circle cx="150" cy="150" r="70" fill="#c8ccd1"/>
+  <rect x="60" y="230" width="180" height="150" rx="90" fill="#c8ccd1"/>
+  <text x="150" y="150" font-family="Georgia, serif" font-size="42" fill="#72777d" text-anchor="middle" dominant-baseline="middle">JC</text>
+</svg>

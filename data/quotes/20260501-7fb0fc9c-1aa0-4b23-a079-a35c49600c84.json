@@ -1,0 +1,18 @@
+{
+  "id": "7fb0fc9c-1aa0-4b23-a079-a35c49600c84",
+  "added": "2026-05-01",
+  "date": "47 BC",
+  "original_language": "la",
+  "translations": {
+    "la": "Veni, vidi, vici.",
+    "en": "I came, I saw, I conquered."
+  },
+  "author": {
+    "name": "Julius Caesar",
+    "link": "https://en.wikipedia.org/wiki/Julius_Caesar"
+  },
+  "media": {
+    "image": "julius_caesar.svg",
+    "caption": "Julius Caesar, 1st century BC"
+  }
+}

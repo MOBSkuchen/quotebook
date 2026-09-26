@@ -1,0 +1,19 @@
+{
+  "id": "7b046cc4-4d76-492a-9434-cfe5fab5964f",
+  "added": "2025-09-01",
+  "date": "1911",
+  "original_language": "fr",
+  "translations": {
+    "fr": "Rien dans la vie n'est à craindre, tout est à comprendre.",
+    "en": "Nothing in life is to be feared, it is only to be understood.",
+    "de": "Nichts im Leben muss gefürchtet werden, es muss nur verstanden werden."
+  },
+  "author": {
+    "name": "Marie Curie",
+    "link": "https://en.wikipedia.org/wiki/Marie_Curie"
+  },
+  "media": {
+    "image": "marie_curie.svg",
+    "caption": "Marie Curie, 1911"
+  }
+}

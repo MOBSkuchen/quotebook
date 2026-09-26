@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+src/backend/var/
+*.db
+.DS_Store
+.playwright-mcp/
+.idea/
+
