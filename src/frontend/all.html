@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Quotes - QuoteBook</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-links">
+        <a id="submit-quote-link" href="#" target="_blank" rel="noopener noreferrer">Submit a quote</a>
+        <a href="/">Todays Quotes</a>
+        <a href="/about">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="page-title">
+      <h1>All Quotes</h1>
+    </div>
+
+    <div class="search-bar">
+      <label for="search-input" class="visually-hidden">Search quotes</label>
+      <input id="search-input" type="search" placeholder="Search quotes, authors, or translations..." autocomplete="off">
+    </div>
+
+    <div id="quotes-list" class="quote-list"></div>
+    <nav id="pagination" class="pagination" aria-label="Quote list pages"></nav>
+  </main>
+
+  <script src="/js/config.js"></script>
+  <script src="/js/lang.js"></script>
+  <script src="/js/quotes.js"></script>
+  <script src="/js/all.js"></script>
+  <script>
+    document.getElementById("submit-quote-link").href = CONFIG.SUBMIT_QUOTE_URL;
+  </script>
+</body>
+</html>

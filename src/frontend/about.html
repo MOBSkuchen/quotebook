@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - QuoteBook</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-links">
+        <a id="submit-quote-link" href="#" target="_blank" rel="noopener noreferrer">Submit a quote</a>
+        <a href="/all">View all</a>
+        <a href="/about">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page page-narrow">
+    <h1>About QuoteBook</h1>
+    <p>QuoteBook is a minimalist archive of quotations, maintained as a SonVogel subsidiary.</p>
+    <p><em>More about this project is coming soon.</em></p>
+  </main>
+
+  <script src="/js/config.js"></script>
+  <script>
+    document.getElementById("submit-quote-link").href = CONFIG.SUBMIT_QUOTE_URL;
+  </script>
+</body>
+</html>
